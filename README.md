@@ -1,29 +1,20 @@
 Services:
-1.electricalbikes/ bikes
+  
 Methods:
  	1. GET:
-		- Get bikes of a stations sorted by kms asc  /sortedbikesbykm/:idStation
- 		- Get bike /getbike/:idStation/:idUser
- 		- Get bikes by user /getbikes/:idUser
+		- 
+ 		- 
+ 		- 
 	2. POST:
 		- Add user /adduser
- 		- Add station /addstation
- 		- Add bike /addbike
+ 		- Add lab /addlab
+ 		- Add muestra /addmuestra
 
 Models:
-1. Bike:
- 	String idBike;
-     String description;
-     double kms;
-     String idStation;
+1. Muestra:
+ 	 
 
- 2. Station:
- 	String idStation;
-     String description;
-     int max;
-     double lat;
-     double lon;
+ 2. Lab:
+ 	 
  3. User:
-    String idUser;
-     String name;
-     String surname;
+   
